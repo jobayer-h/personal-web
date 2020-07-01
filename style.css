@@ -32,6 +32,9 @@ p{
 .color-text{
     color: #ec4c7a;
 }
+.exp-text{
+    color: orange;
+}
 /* css for button and button hover */
 .button{
     text-decoration: none;
@@ -61,7 +64,7 @@ section{
     background-image: url("./biography-bg.png");
     background-repeat: no-repeat;
     height: 600px;
-    background-position: right;
+    background-position: left;
     padding: 5% 0;
 }
 .recent-projects{
@@ -73,6 +76,13 @@ section{
 }
 .testimonial{
     background-image: url("./footer-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: left;
+    padding: 5% 0;
+}
+.experiance-section{
+    background-image: url("./biography-bg.png");
     background-repeat: no-repeat;
     height: 600px;
     background-position: left;
@@ -130,6 +140,44 @@ section{
 .single-project img{
     width: 100%;
 }
+
+/* css for experiance section */
+
+.single-experiance{
+    width: 28%;
+    min-height: 400px;
+    float: left;
+    padding-left: 2%;
+    margin: 1%;
+    box-shadow: 2px 2px 20px gray;
+    border-left: 9px solid;
+    background: white;
+    overflow: scroll;
+}
+.single-experiance:hover{
+    box-shadow: 2px 2px 40px gray;
+    cursor: pointer;
+
+}
+.experiance::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#full{
+    border-image-source: linear-gradient(180deg, #273c75,#7f8fa6);
+    border-image-slice: 1;
+}
+#back{
+    border-image-source: linear-gradient(180deg, #f1c40f, #d35400);
+    border-image-slice: 1;
+}
+#front{
+    border-image-source: linear-gradient(180deg, #2ecc71, #3498db);
+    border-image-slice: 1;
+}
+
+/* footer css */
 
 
 footer {
