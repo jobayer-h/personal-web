@@ -113,7 +113,6 @@ section{
 .call-to-action a{
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
 }
 .call-to-action h3{
     font-size: 30px;
