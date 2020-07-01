@@ -1,20 +1,8 @@
+/* default css */
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-}
-.half-area{
-    width: 40%;
-    float: left;
-    padding-left: 5%;
-    margin-left: 2%;
-    height: 650px;
-}
-
-.half-area img{
-    width: 100%;
-}
-.color-text{
-    color: #ec4c7a;
 }
 h1{
     font-size: 50px;
@@ -29,6 +17,22 @@ p{
     font-size: 20px;
     color: dimgray;
 }
+
+/* half area css */
+.half-area{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+    height: 650px;
+}
+.half-area img{
+    width: 100%;
+}
+.color-text{
+    color: #ec4c7a;
+}
+/* css for button and button hover */
 .button{
     text-decoration: none;
     padding: 10px 30px;
@@ -41,6 +45,8 @@ p{
     background: linear-gradient(135deg, #ed4b6e , #ec5299);
     box-shadow: 2px 2px 30px gray;
 }
+
+/* css for all sections */
 section{
     padding-bottom: 50px;
     clear: both;
@@ -72,15 +78,24 @@ section{
     background-position: left;
     padding: 5% 0;
 }
+.clint-feedback{
+    text-align: center;
+}
+
+/* call to action bautton css */
+
 .call-to-action{
     width: 55%;
     margin: auto;
     padding: 10px 30px;
     background: linear-gradient(45deg, #ec5299, #ed4b6e);
-    border-radius: 3px;
-    box-shadow: 2px 2px 30px gray;
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px gray;
     text-align: center;
     margin-top: 8%;
+}
+.call-to-action:hover{
+    box-shadow: 2px 2px 30px gray;
 }
 .call-to-action p{
     color: whitesmoke;
@@ -97,7 +112,7 @@ section{
     text-align: center;
 }
 
-
+/* middle area for recent projects align in center */
 .middle-area{
     width: 80%;
     margin: auto;
@@ -107,12 +122,15 @@ section{
     float: left;
     padding: 1.66667%;
 }
+.single-project:hover{
+    box-shadow: 2px 2px 30px gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .single-project img{
     width: 100%;
 }
-.clint-feedback{
-    text-align: center;
-}
+
 
 footer {
     text-align: center;
