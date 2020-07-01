@@ -89,10 +89,13 @@ section{
     margin: auto;
     padding: 10px 30px;
     background: linear-gradient(45deg, #ec5299, #ed4b6e);
-    border-radius: 3px;
-    box-shadow: 2px 2px 30px gray;
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px gray;
     text-align: center;
     margin-top: 8%;
+}
+.call-to-action:hover{
+    box-shadow: 2px 2px 30px gray;
 }
 .call-to-action p{
     color: whitesmoke;
@@ -118,6 +121,11 @@ section{
     width: 30%;
     float: left;
     padding: 1.66667%;
+}
+.single-project:hover{
+    box-shadow: 2px 2px 30px gray;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .single-project img{
     width: 100%;
