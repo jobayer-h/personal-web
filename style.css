@@ -55,34 +55,34 @@ section{
     clear: both;
 }
 .top{
-    background-image: url("./header-bg.png");
+    background-image: url("./img/header-bg.png");
     background-repeat: no-repeat;
     height: 600px;
     padding: 5% 0;
 }
 .biography{
-    background-image: url("./biography-bg.png");
+    background-image: url("./img/biography-bg.png");
     background-repeat: no-repeat;
     height: 600px;
     background-position: left;
     padding: 5% 0;
 }
 .recent-projects{
-    background-image: url("./latest-work-bg.png");
+    background-image: url("./img/latest-work-bg.png");
     background-repeat: no-repeat;
     height: 600px;
     background-position: left;
     padding: 5% 0;
 }
 .testimonial{
-    background-image: url("./footer-bg.png");
+    background-image: url("./img/footer-bg.png");
     background-repeat: no-repeat;
     height: 600px;
     background-position: left;
     padding: 5% 0;
 }
 .experiance-section{
-    background-image: url("./biography-bg.png");
+    background-image: url("./img/biography-bg.png");
     background-repeat: no-repeat;
     height: 600px;
     background-position: left;
