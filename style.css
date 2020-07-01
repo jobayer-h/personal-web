@@ -11,7 +11,7 @@ body{
 }
 
 .half-area img{
-    height: 100%;
+    width: 100%;
 }
 .color-text{
     color: #ec4c7a;
@@ -73,7 +73,7 @@ section{
     padding: 5% 0;
 }
 .call-to-action{
-    width: 40%;
+    width: 55%;
     margin: auto;
     padding: 10px 30px;
     background: linear-gradient(45deg, #ec5299, #ed4b6e);
@@ -89,6 +89,9 @@ section{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+}
+.call-to-action h3{
+    font-size: 30px;
 }
 .section-heading{
     text-align: center;
